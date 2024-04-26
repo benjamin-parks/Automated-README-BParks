@@ -1,32 +1,32 @@
-# Ben's Readme Generator
+# test
 
-  ## Description
-  This application takes the input of a user and generates a README.md file based on the responses.
-  
-  ## Table of Contents
-  - [Description](#Description)
-  - [How to Install](#How-to-Install)
-  - [How to Use](#How-to-Use)
-  - [Repo License](#Repo-License)
-  - [Contributions](#Contributions)
-  - [Tests Required](#Tests-Required)
-  - [Questions](#Questions)
+## Description
+test
 
-  
-  ## How to Install
-  Git clone this repo, open a command prompt and cd to it, then type npm install to download/install all of the dependencies required for the application to work. 
-  
-  ## How to Use
-  Open the application by typing "node index.js". Then answer all prompts of the (hitting enter after you complete your answers to continue to the next prompt). When finished, you'll have a README file generated! 
-  
-  ## Repo License
-   
-  
-  ## Contributions
-  No
-  
-  ## Tests Required
-  No
-  
-  ## Questions
-  No
+## Table of Contents
+- [Description](#Description)
+- [How to Install](#How-to-Install)
+- [How to Use](#How-to-Use)
+- [Repo License](#Repo-License)
+- [Contributions](#Contributions)
+- [Tests Required](#Tests-Required)
+- [Questions](#Questions)
+
+
+## How to Install
+test
+
+## How to Use
+test
+
+## Repo License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)] https://opensource.org/license/mit
+
+## Contributions
+test
+
+## Tests Required
+test
+
+## Questions
+test

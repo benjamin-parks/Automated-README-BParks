@@ -103,36 +103,36 @@ function generateMarkdown(data) {
   const licenseSection = renderLicenseSection(data);
   return `# ${data.repoName}
 
-  ## Description
-  ${data.repoDesc}
-  
-  ## Table of Contents
-  - [Description](#Description)
-  - [How to Install](#How-to-Install)
-  - [How to Use](#How-to-Use)
-  - [Repo License](#Repo-License)
-  - [Contributions](#Contributions)
-  - [Tests Required](#Tests-Required)
-  - [Questions](#Questions)
+## Description
+${data.repoDesc}
 
-  
-  ## How to Install
-  ${data.repoInstall}
-  
-  ## How to Use
-  ${data.repoUsage}
-  
-  ## Repo License
-  ${licenseSection}
-  
-  ## Contributions
-  ${data.repoContributions}
-  
-  ## Tests Required
-  ${data.repoTests}
-  
-  ## Questions
-  ${data.repoQuestions}`;
-  }
+## Table of Contents
+- [Description](#Description)
+- [How to Install](#How-to-Install)
+- [How to Use](#How-to-Use)
+- [Repo License](#Repo-License)
+- [Contributions](#Contributions)
+- [Tests Required](#Tests-Required)
+- [Questions](#Questions)
+
+
+## How to Install
+${data.repoInstall}
+
+## How to Use
+${data.repoUsage}
+
+## Repo License
+${licenseSection}
+
+## Contributions
+${data.repoContributions}
+
+## Tests Required
+${data.repoTests}
+
+## Questions
+${data.repoQuestions}`;
+}
 
 module.exports = {generateMarkdown, renderLicenseBadge, renderLicenseLink, renderLicenseSection}; 
