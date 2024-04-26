@@ -106,13 +106,20 @@ function generateMarkdown(data) {
   ## Description
   ${data.repoDesc}
   
-  ## Table of contents
-  ${data.repoToC}
+  ## Table of Contents
+  - [Description](#Description)
+  - [How to Install](#How-to-Install)
+  - [How to Use](#How-to-Use)
+  - [Repo License](#Repo-License)
+  - [Contributions](#Contributions)
+  - [Tests Required](#Tests-Required)
+  - [Questions](#Questions)
+
   
   ## How to Install
   ${data.repoInstall}
   
-  ## How to use
+  ## How to Use
   ${data.repoUsage}
   
   ## Repo License
@@ -121,7 +128,7 @@ function generateMarkdown(data) {
   ## Contributions
   ${data.repoContributions}
   
-  ## Tests required
+  ## Tests Required
   ${data.repoTests}
   
   ## Questions

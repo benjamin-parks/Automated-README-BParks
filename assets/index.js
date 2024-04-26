@@ -20,11 +20,6 @@ const questions = [
     },
     {
         type: "input",
-        message: "Table of contents info?",
-        name: "repoToC"
-    },
-    {
-        type: "input",
         message: "How do you install this program?",
         name: "repoInstall"
     },
