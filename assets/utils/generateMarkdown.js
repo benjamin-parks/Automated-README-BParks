@@ -113,7 +113,7 @@ ${data.repoDesc}
 - [Repo License](#Repo-License)
 - [Contributions](#Contributions)
 - [Tests Required](#Tests-Required)
-- [Questions](#Questions)
+- [Questions/Contact Me](#questionscontact-me))
 
 
 ## How to Install
@@ -132,8 +132,9 @@ ${data.repoContributions}
 ${data.repoTests}
 
 ## Questions/Contact Me
-github: https://github.com/${data.githubUser}
-email: ${data.email}`;
+For additional support, contact me with questions through either of the following: 
+Github: https://github.com/${data.githubUser}
+Email: ${data.email}`;
 }
 
 module.exports = {generateMarkdown, renderLicenseBadge, renderLicenseLink, renderLicenseSection}; 
