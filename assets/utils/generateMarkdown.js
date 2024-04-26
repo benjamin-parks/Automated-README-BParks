@@ -131,8 +131,9 @@ ${data.repoContributions}
 ## Tests Required
 ${data.repoTests}
 
-## Questions
-${data.repoQuestions}`;
+## Questions/Contact Me
+github: https://github.com/${data.githubUser}
+email: ${data.email}`;
 }
 
 module.exports = {generateMarkdown, renderLicenseBadge, renderLicenseLink, renderLicenseSection}; 
